@@ -125,16 +125,7 @@ class DetailPokemonViewController: UIViewController {
     // MARK: Setup
 
     private func setup() {
-        let viewController = self
-        let interactor = DetailPokemonInteractor()
-        let presenter = DetailPokemonPresenter()
-        let router = DetailPokemonRouter()
-        viewController.interactor = interactor
-        viewController.router = router
-        interactor.presenter = presenter
-        presenter.viewController = viewController
-        router.viewController = viewController
-        router.dataStore = interactor
+        DetailPokemonConfigurator.configureModule(viewController: self)
     }
 
     // MARK: Routing

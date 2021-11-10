@@ -42,6 +42,7 @@
 		3C3A29D1273C37D8008BBFAD /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A29CF273C37D8008BBFAD /* ItemView.swift */; };
 		3C3A29D2273C37D8008BBFAD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A29D0273C37D8008BBFAD /* CardView.swift */; };
 		3C3A29D4273C4C1D008BBFAD /* PokemonsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A29D3273C4C1D008BBFAD /* PokemonsConfigurator.swift */; };
+		3C3A29D6273C5EE7008BBFAD /* DetailPokemonConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A29D5273C5EE7008BBFAD /* DetailPokemonConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -94,6 +95,7 @@
 		3C3A29CF273C37D8008BBFAD /* ItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		3C3A29D0273C37D8008BBFAD /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3C3A29D3273C4C1D008BBFAD /* PokemonsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsConfigurator.swift; sourceTree = "<group>"; };
+		3C3A29D5273C5EE7008BBFAD /* DetailPokemonConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPokemonConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +251,7 @@
 				3C3A29C5273C23E3008BBFAD /* DetailPokemonModels.swift */,
 				3C3A29C6273C23E3008BBFAD /* DetailPokemonViewController.swift */,
 				3C3A29C7273C23E3008BBFAD /* DetailPokemonInteractor.swift */,
+				3C3A29D5273C5EE7008BBFAD /* DetailPokemonConfigurator.swift */,
 			);
 			path = DetailPokemon;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C3A296F273B4706008BBFAD /* PokemonsInteractor.swift in Sources */,
+				3C3A29D6273C5EE7008BBFAD /* DetailPokemonConfigurator.swift in Sources */,
 				3C3A29D4273C4C1D008BBFAD /* PokemonsConfigurator.swift in Sources */,
 				3C3A298A273B5F7A008BBFAD /* Pokemon.swift in Sources */,
 				3C3A29CC273C23E4008BBFAD /* DetailPokemonViewController.swift in Sources */,

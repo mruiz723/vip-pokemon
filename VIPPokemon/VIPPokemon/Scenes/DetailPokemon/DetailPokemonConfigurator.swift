@@ -1,5 +1,5 @@
 //
-//  PokemonsConfigurator.swift
+//  DetailPokemonConfigurator.swift
 //  VIPPokemon
 //
 //  Created by Marlon David Ruiz Arroyave on 10/11/21.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-struct PokemonsConfigurator {
+struct DetailPokemonConfigurator {
 
-    static func configureModule(viewController: PokemonsViewController) {
-        let interactor = PokemonsInteractor()
-        let presenter = PokemonsPresenter()
-        let router = PokemonsRouter()
+    static func configureModule(viewController: DetailPokemonViewController) {
+        let interactor = DetailPokemonInteractor()
+        let presenter = DetailPokemonPresenter()
+        let router = DetailPokemonRouter()
         viewController.interactor = interactor
         viewController.router = router
         interactor.presenter = presenter
