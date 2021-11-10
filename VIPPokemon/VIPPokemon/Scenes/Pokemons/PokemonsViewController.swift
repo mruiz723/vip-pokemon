@@ -66,16 +66,7 @@ class PokemonsViewController: UICollectionViewController {
     // MARK: Setup
     
     private func setup() {
-        let viewController = self
-        let interactor = PokemonsInteractor()
-        let presenter = PokemonsPresenter()
-        let router = PokemonsRouter()
-        viewController.interactor = interactor
-        viewController.router = router
-        interactor.presenter = presenter
-        presenter.viewController = viewController
-        router.viewController = viewController
-        router.dataStore = interactor
+        PokemonsConfigurator.configureModule(viewController: self)
     }
     
     // MARK: Routing
